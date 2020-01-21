@@ -1,0 +1,9 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+                  xmlns:us="http://www.xmlToJavaObjects.com">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <us:getListWithHigherCounterRequest>
+            <us:counter>0</us:counter>
+        </us:getListWithHigherCounterRequest>
+    </soapenv:Body>
+</soapenv:Envelope>

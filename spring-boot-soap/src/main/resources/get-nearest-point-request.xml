@@ -1,0 +1,11 @@
+  
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+                  xmlns:us="http://www.xmlToJavaObjects.com">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <us:getNearestPointRequest>
+            <us:latitude>5</us:latitude>
+            <us:longitude>5</us:longitude>
+        </us:getNearestPointRequest>
+    </soapenv:Body>
+</soapenv:Envelope>
