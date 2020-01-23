@@ -1,5 +1,11 @@
 # Locations
 
+This is a soap api which provides two services:
+- Giving latitude and longitude of a location the API returns the name of the nearest point. Points are stored in Mysql and cached using memory table in Mysql. With each request the nearest point increases its counter by one.
+- Giving a number the API returns a list of points that their counter is larger than the input value.
+
+Also some Junit tests are included.
+
 Instructions to run the app:
 1. Create Mysql database using the script with title: soap_api.sql
 2. There is another scirpt with name: ScriptToPopulateMemoryTable. This is because memory table gets empty when the MySQL server restarts. So this script populates locations memory table if needed (if you restart mysql).
